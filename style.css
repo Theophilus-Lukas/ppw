@@ -62,7 +62,7 @@
 .soc-med {
     display: flex;
     flex-direction: row;
-    max-width: 700px;
+    max-width: 600px;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -135,7 +135,8 @@
     max-width: 1900px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    left: 11%;
+    left: 5%;
+    background-color: rgb(162, 233, 255);
 }
 
 
@@ -284,8 +285,8 @@
 
     width: 343.77px;
     height: 572.95px;
-    left: 1246.94px;
-    top: 1224.78px;
+    left: 1200px;
+    top: 1200px;
     position: absolute;
 
     background: url(img/mesnow.jpg);
@@ -303,6 +304,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     left: 11%;
+    background-color: rgb(162, 187, 255);
 }
 
 .skill {
@@ -326,6 +328,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     left: 11%;
+    background-color: rgb(133, 209, 253);
 }
 
 
@@ -393,16 +396,17 @@
     max-width: 100%;
     justify-content: space-evenly;
     left: 11%;
+    background-color: rgb(84, 164, 189);
 }
 
 
 /*education*/
 .education-panel {
     position: absolute;
-    width: 1500.75px;
+    width: 500.75px;
     left: 12%;
     top: 3400px;
-
+    
 }
 
 .edu-list {
@@ -425,9 +429,9 @@
 
 
 
-@media (max-width: 1800px) {
+@media (max-width: 1860px) {
     .about-me-flex {
-        top: 1800px;
+        top: 1850px;
     }
 
     .skill {
@@ -448,6 +452,13 @@
         top: 4800px;
     }
 }
+
+@media (max-width: 1200px){
+    .rectangles, .side-me {
+        display: none;
+    }
+}
+
 @media (max-width: 768px){
     .education-panel {
         left: 1%;

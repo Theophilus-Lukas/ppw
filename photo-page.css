@@ -37,8 +37,11 @@ body {
     grid-auto-rows: 240px;
   }
   .top {
+    padding: 10px;
     font-size: 75px;
     text-align: center;
+    background-color: rgb(29, 49, 77);
+    color: aliceblue;
   }
   .under-top {
     font-size: 20px;
