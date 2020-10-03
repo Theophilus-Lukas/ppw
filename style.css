@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 /* home */
 .top-name {
     text-align: justify;
@@ -431,25 +434,25 @@
 
 @media (max-width: 1860px) {
     .about-me-flex {
-        top: 1850px;
+        top: 1900px;
     }
 
     .skill {
-        top: 2450px;
+        top: 2580px;
     }
 
     .other-interest-flex {
-        top: 2900px;
+        top: 3050px;
     }
     .proj1 {
-        top: 3600px;
+        top: 3700px;
     }
     .project {
-        top: 3400px;
+        top: 3500px;
     }
 
     .education-panel {
-        top: 4800px;
+        top: 4900px;
     }
 }
 

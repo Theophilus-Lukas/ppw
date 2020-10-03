@@ -1,5 +1,5 @@
 body {
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.836);
     color: rgb(0, 0, 0);
     font-family: 'roboto', sans-serif;
 }
@@ -38,10 +38,10 @@ body {
   }
   .top {
     padding: 10px;
-    font-size: 75px;
+    font-size: 100px;
     text-align: center;
-    background-color: rgb(29, 49, 77);
-    color: aliceblue;
+    color: rgb(17, 17, 17);
+
   }
   .under-top {
     font-size: 20px;
